@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+nav.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3px 1px 6px lightgray;
+
+    ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+
+        li {
+            a {
+                text-decoration: none;
+                color: #f75836;
+
+                &:hover {
+                    color: #fe9a52;
+                }
+            }
+        }
+    }
+
+    .pages {
+        li {
+            margin-right: 2rem;
+        }
+    }
+
+    .nav-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
